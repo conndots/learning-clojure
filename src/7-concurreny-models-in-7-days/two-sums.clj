@@ -11,5 +11,3 @@
         sum
         (recur (rest numbers)
               (+ sum (first numbers))))))
-
-(println (iterative-sums [4, 5, 1, 2]))
